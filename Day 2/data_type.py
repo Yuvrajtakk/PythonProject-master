@@ -1,0 +1,7 @@
+print("Hello"[4])
+print("Hello"[-1])
+print("123"+"456")
+print(123+456)
+print(123_456_789)
+print(3.147)
+print(True)
