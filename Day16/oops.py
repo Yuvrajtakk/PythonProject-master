@@ -1,12 +1,12 @@
-# from turtle import Turtle,Screen
-# meow = Turtle()
-# print(meow)
-# meow.shape("turtle")
-# meow.color("LightCyan3")
-# meow.forward(100)
-# my_screen = Screen()
-# print(my_screen.canvheight)
-# my_screen.exitonclick()
+from turtle import Turtle,Screen
+meow = Turtle()
+print(meow)
+meow.shape("turtle")
+meow.color("LightCyan3")
+meow.forward(100)
+my_screen = Screen()
+print(my_screen.canvheight)
+my_screen.exitonclick()
 
 from prettytable import PrettyTable
 
