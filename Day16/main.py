@@ -1,4 +1,3 @@
-
 from menu import Menu
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
@@ -8,8 +7,6 @@ coffee_maker = CoffeeMaker()
 menu =Menu()
 
 is_on = True
-
-
 
 while is_on:
     option = menu.get_items()
