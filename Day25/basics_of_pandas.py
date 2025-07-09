@@ -1,5 +1,6 @@
 import pandas
 
+
 # Read the CSV file
 data = pandas.read_csv("weather_data.csv")
 print(type(data))
@@ -23,8 +24,24 @@ print(f"The average temperature is: {avg_temp}")
 
 
 temp = data["temp"]
-
+print(data["condition"])
+print(data.condition)
+# both are same
 # Basic Statistical Methods
+print()
+#get data in raw
+print(data[data.day == "Monday"])
+
+print()
+
+monday = data[data.day == "Monday"]
+# monday_temp = int(monday.temp)
+# monday_temp_F = monday_temp * 9/5 + 32
+
+# row of data which had max temp
+print(data[data.temp == temp.max()])
+
+
 print("\nBASIC STATISTICAL METHODS:")
 print("-" * 30)
 print(f"median(): {temp.median()}")       # Middle value
@@ -169,3 +186,6 @@ percentiles = [10, 25, 50, 75, 90]
 for p in percentiles:
     value = data['temp'].quantile(p/100)
     print(f"{p}th percentile: {value:.1f}°C")
+
+
+
