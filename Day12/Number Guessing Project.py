@@ -44,6 +44,8 @@ def check_answer(user_guess, actual_answer, turns):
         return turns - 1
     else:
         print(f"You got it! The answer was {actual_answer}")
+        return None
+
 
 # Function to set difficulty
 def set_difficulty():
