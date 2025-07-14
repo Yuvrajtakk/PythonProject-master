@@ -15,7 +15,7 @@ my_label["text"] ="New text"
 my_label.config(text="New text")
 
 def button_clicked():
-    moan = ["Ahhh💦", "ummhh🫦", "ohh😫"]
+    moan = ["Ahhh💦", "ummhh🫦", "ohh😫","yeah😭😭"]
     moaning = random.choice(moan)
     my_label.config(text= moaning)
     print("Ahhh💦")
